@@ -9,7 +9,7 @@ import (
 var clients = make(map[string]string)
 
 func main() {
-	udpAddr, err := net.ResolveUDPAddr("udp4", ":11194")
+	udpAddr, err := net.ResolveUDPAddr("udp4", ":1195")
 	if err != nil {
 		println(err.Error())
 		os.Exit(1)
